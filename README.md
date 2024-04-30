@@ -129,4 +129,26 @@ et ainsi être sûr d'avoir trouvé le maximum de vulnérabilités exposées.
    apportées au code soient soumises aux mêmes conditions à l'avenir. Enfin, nous souhaitons également que toutes les
    modifications apportées au code demeurent open source. La licence GNU est parfaite pour garantir cela car elle exige que les modifications soient publiées.
 
+## Outils d'analyses de code (SCA)
 
+Intégrez un ou plusieurs outils d'analyse de code vous permettant d'évaluer :
+
+1. **La *qualité* du code (clean code, bogues potentiels, optimisations, meilleures pratiques, etc.)**
+   Pour la qualité du code, nous avons utilisé DeepSource.
+   Voici l'analyse globale :
+   <br />
+   <img src="images/all-issue.jpg">
+   <br />
+   Nous pouvons voir que DeepSource a détecté des problèmes dans notre projet, plus spécifiquement :
+   <br />
+   <img src="images/specific_issue1.jpg">
+   <img src="images/specific_issue2.jpg">
+   <br />
+   Pour le style du code (CLEN CODE): DeepSource n'a rien détecté, l'utilsation de Maven spotless nous permet d'avoir aucune erreur dans le style du code.
+   <br />
+   <img src="images/no_style_error.jpg">
+   <br />
+2. **La couverture des tests**
+   
+3. **La sécurité du code (voir Sécurité logicielle plus haut dans le fichier)**
+   
