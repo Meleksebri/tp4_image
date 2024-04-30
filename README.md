@@ -151,8 +151,9 @@ un autre outil : dependancy-review. Cet outil est configuré de manière à ce q
 automatiquement d'un push et manuellement par un développeur.
 <br />
 <img src="images/dependency-review-findings.png">
+<img src="images/openssf.png">
 <br />
-Tel qu'on peut voir, l'outil a trouvé deux failles de dépendances lors d'un pull request.
+Tel qu'on peut voir, l'outil a trouvé deux failles de dépendances lors du premier pull request et deux autres vulnérabilités lors du deuxième pull request.
 
 ---
 ### Analyse du code
