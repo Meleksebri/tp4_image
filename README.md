@@ -102,20 +102,24 @@ Un autre problème a été l'écriture des tests unitaires, en effet, souvent, n
 
   **Body**
     ```ts
+    {
      rating: number,
      comment: string,
      visitDate: string 
+    }
   ```
 
 <details>
 <summary>Exemple</summary>
 
 ```json
-{
-  "rating": 2,
-  "comment": "Un peu boff!",
-  "visiteDate": "2023-02-22"
-}
+[
+  {
+    "rating": 2,
+    "comment": "Un peu boff!",
+    "visiteDate": "2023-02-22"
+  },
+]
 ```
 </details>
 
@@ -147,8 +151,10 @@ un autre outil : dependancy-review. Cet outil est configuré de manière à ce q
 automatiquement d'un push et manuellement par un développeur.
 <br />
 <img src="images/dependency-review-findings.png">
+<img src="images/openssf.png">
 <br />
-Tel qu'on peut voir, l'outil a trouvé deux failles de dépendances lors d'un pull request.
+Tel qu'on peut voir, l'outil a trouvé deux failles de dépendances lors du premier pull request et deux autres vulnérabilités lors du deuxième pull request.
+
 ---
 ### Analyse du code
 D'un autre côté, nous avons analysé le code afin d'y trouvé de potentielles failles
