@@ -81,8 +81,9 @@ et ainsi être sûr d'avoir trouvé le maximum de vulnérabilités exposées.
 ## Open Sourcing
 
 ### Questions
-1. Nommez 3 avantages à contribuer à des projets open source en tant qu'entreprise et justifiez en quoi cela peut
-   être bénéfique pour tous.
+1. **Nommez 3 avantages à contribuer à des projets open source en tant qu'entreprise et justifiez en quoi cela peut
+   être bénéfique pour tous.**
+
    En contribuant à des projets open source, une entreprise peut bénéficier de plusieurs avantages.
    Tout d'abord, cela peut augmenter sa visibilité et améliorer sa réputation dans le domaine technologique.
    En participant à des projets de différentes tailles, l'entreprise devient plus connue et suscite l'intérêt
@@ -100,7 +101,7 @@ et ainsi être sûr d'avoir trouvé le maximum de vulnérabilités exposées.
    En résumé, en contribuant au développement de projets open source, une entreprise peut améliorer sa visibilité et sa crédibilité,
    renforcer ses compétences et accélérer son développement logiciel, le tout sans compromettre la qualité de ses produits.
    
-3. Décrivez 3 défis qu'impose la mise en place d'un projet open source et justifiez.
+2. **Décrivez 3 défis qu'impose la mise en place d'un projet open source et justifiez.**
 
    Un des principaux défis dans la gestion des projets open source est la gestion des contributions et de la communauté.
    Avec un grand nombre de personnes pouvant contribuer au projet et une variété de compétences techniques, il peut être
@@ -112,13 +113,20 @@ et ainsi être sûr d'avoir trouvé le maximum de vulnérabilités exposées.
     des méthodes alternatives pour garantir l'avancement du projet tout en étant moins dépendant des contributions. Cependant, trouver les fonds
     pour ces alternatives peut être difficile, car les projets open source ne génèrent généralement pas de revenus.
    
-4. Quelle information vous a-t-elle le plus surprise à propos de l'open source?
+3. **Quelle information vous a-t-elle le plus surprise à propos de l'open source?**
    
    L'information qui nous a le plus surpris est que l'open source ne se limite pas au développement logiciel.
    Habituellement, lorsque nous entendons le terme "open source", nous pensons immédiatement à des projets tels que
    Linux, VSCode, Firefox et TensorFlow. C'est pourquoi découvrir que des livres ou même une liste de faits amusants
    sur les macareux peuvent être des projets open source nous a vraiment surpris.
 
-### Pourquoi la licence GNU
+4. **Pourquoi utiliser la license GNU**
+   
+   La première raison est que cette licence exige que les changements apportés soient indiqués, facilitant ainsi
+   l'utilisation de la version modifiée du code car les nouveaux comportements de l'application sont clairement indiqués.
+   Ensuite, nous avons choisi cette licence car elle oblige les personnes qui modifient le projet à utiliser la même licence
+   pour leurs modifications. Cet aspect de la licence GNU est important pour nous car nous voulons que toutes les modifications 
+   apportées au code soient soumises aux mêmes conditions à l'avenir. Enfin, nous souhaitons également que toutes les
+   modifications apportées au code demeurent open source. La licence GNU est parfaite pour garantir cela car elle exige que les modifications soient publiées.
 
-La première raison est que cette licence exige que les changements apportés soient indiqués, facilitant ainsi l'utilisation de la version modifiée du code car les nouveaux comportements de l'application sont clairement indiqués. Ensuite, nous avons choisi cette licence car elle oblige les personnes qui modifient le projet à utiliser la même licence pour leurs modifications. Cet aspect de la licence GNU est important pour nous car nous voulons que toutes les modifications apportées au code soient soumises aux mêmes conditions à l'avenir. Enfin, nous souhaitons également que toutes les modifications apportées au code demeurent open source. La licence GNU est parfaite pour garantir cela car elle exige que les modifications soient publiées.
+
