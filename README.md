@@ -153,6 +153,7 @@ automatiquement d'un push et manuellement par un développeur.
 <img src="images/dependency-review-findings.png">
 <br />
 Tel qu'on peut voir, l'outil a trouvé deux failles de dépendances lors d'un pull request.
+
 ---
 ### Analyse du code
 D'un autre côté, nous avons analysé le code afin d'y trouvé de potentielles failles
