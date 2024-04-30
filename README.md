@@ -1,5 +1,7 @@
-### Processus
+## Processus
+### Questions
 
+---
 1) Un des problèmes rencontrés à été de prendre en compte la date de remise du projet pour faire notre projet, en effet, on se prennait pas mal à la dernière minute, ce qui nous donnais pas beaucoup de temps pour tout implémenter. Une des solutions qu'on pourrait adopter pour régler ce problème est de se donner un plan/horaire que tout le monde doit respecter pour pouvoir mettre le temps qu'il faut sur le projet. Par contre, puisqu'on est à l'université, on n'a pas que ça à faire, donc c'est plus dur de s'adapter à cela.
 Un autre problème a été l'écriture des tests unitaires, en effet, souvent, nous écrivions nos fonctions et nos classes sans écrire les tests directements après, ce qui mennait parfois au autre membre de l'équipe à écrire des tests unitaires pour des parties de code qu'ils n'ont pas écrit, ce qui rendait le tout plus complexe et long à faire. Une des solutions serait que chacun écrive les tests directement après l'implémentation de chacune de leurs fonctions écrites.
 
@@ -12,6 +14,114 @@ Un autre problème a été l'écriture des tests unitaires, en effet, souvent, n
 
 5) Un des trucs est la nomenclature de tous les éléments, cela devient utile, car ça enlève le besoin de mettre des commentaires partout dans notre code pour pouvoir comprendre ce qui se passe. Un autre truc serait d'utiliser ChatGPT pour nous aider lorsque nécessaire, car c'est un excellent outil si on sait s'en servir.
 
+---
+
+# Spécifications de Rate
+
+---
+## Create Rate
+
+---
+**Path**
+
+`POST /restaurants/<id>/rates`
+
+**Headers**
+
+- `Customer: string`: le nom du consommateur
+
+**Body**
+
+```ts
+{
+  rating: number, // le rating
+  comment: string, // le commentaire (optionnel)
+  visiteDate: string, // la date de visite
+}
+```
+
+<details>
+<summary>Exemple</summary>
+
+```json
+{
+  "rating": 4,
+  "comment": "Bonne nourriture!",
+  "visiteDate": "2024-04-25"
+}
+```
+</details>
+
+### Réponses
+
+- `201 CREATED`: succès
+
+  **Headers**
+
+   - `Location: string`: URI du rate créé
+      - format: `<host>/rate/<id>`
+      - Exemple: `http://localhost:8080/rate/123`
+
+
+- `400 BAD REQUEST`: un des paramètres obligatoires est manquant
+
+  **Body**
+
+  ```ts
+  {
+    error: "MISSING_PARAMETER",
+    description: string
+  }
+  ```
+
+
+- `400 BAD REQUEST`: un des paramètres n'est pas valide
+
+  **Body**
+
+  ```ts
+  {
+    error: "INVALID_PARAMETER",
+    description: string
+  }
+
+- `404 NOT FOUND`: le restaurant n'existe pas
+- `404 NOT FOUND`: la réservation n'existe pas
+
+
+## Get Rate
+
+---
+**Path**
+
+`GET /restaurants/<id>/rates`
+
+### Réponses
+
+- `200 OK`: succès
+
+  **Body**
+    ```ts
+     rating: number,
+     comment: string,
+     visitDate: string 
+  ```
+
+<details>
+<summary>Exemple</summary>
+
+```json
+{
+  "rating": 2,
+  "comment": "Un peu boff!",
+  "visiteDate": "2023-02-22"
+}
+```
+</details>
+
+- `404 NOT FOUND`: le restaurant n'existe pas
+
+---
 # Sécurité Logicielle
 ## Analyse des dépendances
 ### Dependabot
