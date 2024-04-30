@@ -77,3 +77,28 @@ D'un autre côté, nous pourrions effectué plus de test. En effet, nous pourrio
 test statique du code (CodeQL), utiliser des outils qui test dynamiquement les appels API de notre application et/ou
 faire appel à un pentester pour tester notre projet. Cela permettrait de couvrir tous les angles de notre projet
 et ainsi être sûr d'avoir trouvé le maximum de vulnérabilités exposées.
+
+## Open Sourcing
+
+1. Nommez 3 avantages à contribuer à des projets open source en tant qu'entreprise et justifiez en quoi cela peut
+être bénéfique pour tous.
+En contribuant à des projets open source, une entreprise peut bénéficier de plusieurs avantages. 
+Tout d'abord, cela peut augmenter sa visibilité et améliorer sa réputation dans le domaine technologique. En participant
+à des projets de différentes tailles, l'entreprise devient plus connue et suscite l'intérêt de personnes du domaine,
+ ce qui peut attirer de futurs employés ou clients.
+
+Ensuite, en contribuant à plusieurs projets, les développeurs de l'entreprise sont exposés à différentes méthodes et 
+approches de développement logiciel, ce qui constitue une excellente opportunité d'apprentissage et d'amélioration des compétences. 
+Cette exposition indirecte peut également contribuer à l'amélioration des compétences des développeurs pour les projets internes de l'entreprise à l'avenir.
+
+Enfin, un troisième avantage est la réduction des coûts et l'accélération du développement. En utilisant et en contribuant à
+des projets open source, l'entreprise devient moins dépendante de solutions propriétaires coûteuses et moins flexibles. 
+De plus, en utilisant des projets open source, il est possible de personnaliser et d'ajuster des fonctionnalités pour répondre aux besoins
+spécifiques de l'entreprise, ce qui peut accélérer le développement tout en préservant la qualité du produit.
+
+En résumé, en contribuant au développement de projets open source, une entreprise peut améliorer sa visibilité et sa crédibilité,
+renforcer ses compétences et accélérer son développement logiciel, le tout sans compromettre la qualité de ses produits.
+   
+3. Décrivez 3 défis qu'impose la mise en place d'un projet open source et justifiez.
+   
+5. Quelle information vous a-t-elle le plus surprise à propos de l'open source?
