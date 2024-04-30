@@ -102,20 +102,24 @@ Un autre problème a été l'écriture des tests unitaires, en effet, souvent, n
 
   **Body**
     ```ts
+    {
      rating: number,
      comment: string,
      visitDate: string 
+    }
   ```
 
 <details>
 <summary>Exemple</summary>
 
 ```json
-{
-  "rating": 2,
-  "comment": "Un peu boff!",
-  "visiteDate": "2023-02-22"
-}
+[
+  {
+    "rating": 2,
+    "comment": "Un peu boff!",
+    "visiteDate": "2023-02-22"
+  },
+]
 ```
 </details>
 
